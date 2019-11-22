@@ -1,4 +1,4 @@
-# DMX-or
+# DMX-OR
 DMX off ramp module
 Introduction
 The DMX-OR or DMX off ramp is a device which captures 8 channels of a DMX universe and transmits the data at lower speed (19,200) out its serial port.
