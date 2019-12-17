@@ -1,17 +1,18 @@
-# DMX-OR
-DMX off ramp module
+# DMX-sl
+DMX slow lane module
 Introduction
-The DMX-OR or DMX off ramp is a device which captures 8 channels of a DMX universe and transmits the data at lower speed (19,200) out its serial port.
+The DMX-sl or DMX slow lane is a device which captures 8 channels of a DMX universe and transmits the data at lower speed (19,200) out its serial port.
 
-DMX is a high speed (25O kbits) control bus used to control dimmers.  Its speed and other timing requirements are difficult to deal with natively in the Raspberry pi and other similar devices.  The DMX Off Ramp module can handle the timing requirements and will retransmit some of the data at a speed that the Pi and other devices can handle.
+DMX is a high speed (25O kbits) control bus used to control dimmers.  Its speed and other timing requirements are difficult to deal with natively in the Raspberry pi and other similar devices.  The DMX slow lane module can handle the timing requirements and will retransmit some of the data at a speed that the Pi and other devices can handle.
 
-Generally a device does not need to use all of the 512 channels of data simultaneously, so the DMX Off Ramp module captures eight channels of data at any start address specified by the DIP switch and retransmits it out the serial port at 19200.
+Generally a device does not need to use all of the 512 channels of data simultaneously, so the DMX slow lane module captures eight channels of data at any start address specified by the DIP switch and retransmits it out the serial port at 19200.
 
 Physical Description
 The DMX Off Ramp mdodule is a standard Raspberry PI hat size and mounts on top of the Raspberry Pi and connects to the I/O connector.  It provides a DMX input and DMX output connector and a 10 way DIP switch for setting the 9 bit DMX address.
 
 THere are two LEDs on the board.
   DMX data
+  RPI feedback 
   
 
 Firmware
