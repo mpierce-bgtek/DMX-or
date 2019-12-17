@@ -1,5 +1,6 @@
 # DMX-sl
-Introduction
+# Introduction
+
 The DMX-sl or DMX slow lane is a device which captures 8 channels of a DMX universe and transmits the data at lower speed (19,200) out its serial port.
 
 DMX is a high speed (25O kbits) control bus used to control dimmers.  Its speed and other timing requirements are difficult to deal with natively in the Raspberry pi and other similar devices.  The DMX slow lane module can handle the timing requirements and will retransmit some of the data at a speed that the Pi and other devices can handle.
