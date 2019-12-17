@@ -1,5 +1,4 @@
 # DMX-sl
-DMX slow lane module
 Introduction
 The DMX-sl or DMX slow lane is a device which captures 8 channels of a DMX universe and transmits the data at lower speed (19,200) out its serial port.
 
