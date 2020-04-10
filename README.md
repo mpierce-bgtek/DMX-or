@@ -29,3 +29,4 @@ Byte 7 - DMX 7 - 0 to FE hex
 Byte 8 - DMX 8 - 0 to FE hex
 Byte 9 - EOF always FF hex.
 
+You can by one from www.BGtek.net
